@@ -1,0 +1,77 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\Software\Westwood]
+
+[HKEY_LOCAL_MACHINE\Software\Westwood\WOLAPI]
+"Name"="Shared Internet Components"
+"InstallPath"=".\\Westwood\\Internet\\WOLAPI.DLL"
+"SKU"=dword:00007f00
+"Version"=dword:00010000
+"Usage"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\Software\Westwood\WOLAPI\3584]
+
+[HKEY_LOCAL_MACHINE\Software\Westwood\Register]
+"Name"="Internet Registration"
+"Version"=dword:00010000
+"InstallPath"=".\\Westwood\\Internet\\REGISTER.EXE"
+"SKU"=dword:00007e00
+"FolderPath"="C:\\WINDOWS\\Start Menu\\Programs\\Westwood\\Shared Internet Components"
+
+[HKEY_LOCAL_MACHINE\Software\Westwood\Dune 2000]
+"Name"="Dune 2000"
+"Version"=dword:00010000
+"InstallPath"=".\\Dune2000.exe"
+"SKU"=dword:00000e00
+"FolderPath"="C:\\WINDOWS\\Start Menu\\Programs\\Westwood\\Dune 2000"
+"InstallFromPath"="D:"
+"InternetPath"="C:\\WINDOWS\\Start Menu\\Programs\\Westwood\\Dune 2000\\Internet Services"
+
+[HKEY_LOCAL_MACHINE\Software\Westwood\Dune 2000\1.00]
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\App Paths\DUNE2000.EXE]
+"Path"=".\\"
+@=".\\Dune2000.exe"
+
+[HKEY_CLASSES_ROOT\CLSID\{925CDEDF-71B9-11D1-B1C5-006097176556}\InprocServer32]
+@=".\\WESTWOOD\\INTERNET\\WOLAPI.DLL"
+"ThreadingModel"="Apartment"
+
+[HKEY_CLASSES_ROOT\CLSID\{925CDEDF-71B9-11D1-B1C5-006097176556}\ToolboxBitmap32]
+@=".\\WESTWOOD\\INTERNET\\WOLAPI.DLL, 1"
+
+[HKEY_CLASSES_ROOT\CLSID\{925CDEDF-71B9-11D1-B1C5-006097176556}\ToolboxBitmap32]
+@=".\\WESTWOOD\\INTERNET\\WOLAPI.DLL, 1"
+
+[HKEY_CLASSES_ROOT\CLSID\{4DD3BAF5-7579-11D1-B1C6-006097176556}\ToolboxBitmap32]
+@=".\\Westwood\\INTERNET\\WOLAPI.DLL, 1"
+
+[HKEY_CLASSES_ROOT\CLSID\{4DD3BAF5-7579-11D1-B1C6-006097176556}\InprocServer32]
+@=".\\Westwood\\INTERNET\\WOLAPI.DLL"
+"ThreadingModel"="Apartment"
+
+[HKEY_CLASSES_ROOT\CLSID\{BF6EA206-9E55-11D1-9DC6-006097C54321}\InprocServer32]
+@=".\\WESTWOOD\\INTERNET\\WOLAPI.DLL"
+"ThreadingModel"="Apartment"
+
+[HKEY_CLASSES_ROOT\CLSID\{B832B0AB-A7D3-11D1-97C3-00609706FA0C}\InprocServer32]
+@=".\\WESTWOOD\\INTERNET\\WOLAPI.DLL"
+"ThreadingModel"="Apartment"
+
+[HKEY_CLASSES_ROOT\TypeLib\{925CDED1-71B9-11D1-B1C5-006097176556}\1.0]
+@="WOLAPI 1.0 Type Library"
+
+[HKEY_CLASSES_ROOT\TypeLib\{925CDED1-71B9-11D1-B1C5-006097176556}\1.0\FLAGS]
+@="0"
+
+[HKEY_CLASSES_ROOT\TypeLib\{925CDED1-71B9-11D1-B1C5-006097176556}\1.0\0]
+
+[HKEY_CLASSES_ROOT\TypeLib\{925CDED1-71B9-11D1-B1C5-006097176556}\1.0\0\win32]
+@=".\\WESTWOOD\\INTERNET\\WOLAPI.DLL"
+
+[HKEY_CLASSES_ROOT\TypeLib\{925CDED1-71B9-11D1-B1C5-006097176556}\1.0\HELPDIR]
+@=".\\WESTWOOD\\INTERNET\\"
+
+[HKEY_CLASSES_ROOT\TypeLib\{925CDED1-71B9-11D1-B1C5-006097176556}\1.0\0\win32]
+@=".\\WESTWOOD\\INTERNET\\WOLAPI.DLL"
+

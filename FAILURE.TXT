@@ -1,0 +1,5 @@
+Dune 2000 requires a 256 colour desktop to run.
+This video card does not support the required modes.
+Insufficient RAM and/or Virtual Memory.  Check Virtual Memory settings and disk space to ensure at least 12Mb is avilable.
+File not found
+Please reinstall
